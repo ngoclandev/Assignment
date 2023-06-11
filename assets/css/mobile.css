@@ -1,0 +1,151 @@
+@media (max-width: 576px) {
+  section > .container {
+    width: 100%;
+  }
+
+  /* BANNER */
+
+  .banner {
+    max-height: 250px;
+    min-height: unset;
+  }
+
+  .banner h1 {
+    font-size: 24px;
+  }
+
+  .banner img {
+    height: auto;
+    width: 100%;
+  }
+
+  /* NAVBAR */
+
+  .nav-bar .container {
+    margin-top: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-bar a {
+    display: block;
+    padding-top: unset;
+    padding-bottom: unset;
+    line-height: 32px;
+  }
+
+  .nav-bar .unset-sm,
+  .nav-bar .bl-cont,
+  .nav-bar .br-cont {
+    border: unset;
+    margin: unset;
+  }
+
+  .nav-bar .unset-sm {
+    text-align: left;
+  }
+
+  /* ABOUT */
+
+  .bg-grey.about {
+    background: linear-gradient(
+      to bottom,
+      #f7f7f7 0%,
+      #f7f7f7 50%,
+      #f1f3f5 50%,
+      #f1f3f5 100%
+    );
+  }
+
+  .about .container {
+    padding: unset;
+  }
+
+  .about .target h1,
+  .personal-info h1 {
+    font-size: 24px;
+  }
+  .about .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  /* JOB INFO */
+  .job-info .container {
+    display: block;
+    width: 75%;
+  }
+
+  .job-info .block-info h1 {
+    font-size: 24px;
+  }
+
+  .job-info .job-info-icon {
+    font-size: 32px;
+  }
+
+  /* CERTIFICATE */
+
+  .certificate .grid-certi {
+    grid-template-rows: 1fr 0.5fr;
+    width: 70%;
+    margin: auto;
+    row-gap: 0;
+  }
+
+  .certificate .top-certi {
+    flex-direction: column;
+    border: unset;
+    padding-bottom: 12px;
+    gap: 24px;
+  }
+
+  .certificate .text-cont {
+    min-width: 100%;
+    height: fit-content;
+  }
+  .certificate .certi-1,
+  .certificate .certi-2 {
+    border: unset;
+    padding: unset;
+    /* grid-template-rows: 90px 1fr; */
+  }
+  .certificate .bottom-certi .certi {
+    grid-column: 1 / -1;
+    grid-template-rows: 30% 20%;
+    border-bottom: unset;
+    grid-template-rows: 1fr;
+  }
+
+  .certificate .certi {
+    padding: 12px 32px;
+    border-bottom: 1px solid red;
+  }
+
+  .certificate .certi-2 {
+    padding-top: 12px;
+  }
+
+  /* PROJECT */
+
+  .project .project-list {
+    row-gap: 12px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .project .project-mini-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project .project-item .icon-title:nth-child(1) {
+    width: 60px;
+  }
+
+  /* FOOTER */
+  .footer ul {
+    flex-wrap: wrap-reverse;
+    padding: unset;
+  }
+}

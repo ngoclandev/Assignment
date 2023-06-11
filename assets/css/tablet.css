@@ -1,0 +1,96 @@
+@media (max-width: 1000px) {
+  /* OVERALL */
+
+  body {
+    max-width: 100%;
+  }
+
+  section > .container {
+    padding: 15px 25px;
+  }
+
+  /* NAVBAR */
+
+  .nav-bar .bl-cont,
+  .nav-bar .br-cont {
+    padding: 0;
+  }
+
+  .nav-bar .br-cont {
+    border-left: 1px solid #ccc;
+    margin-left: 12px;
+  }
+
+  .nav-bar .bl-cont {
+    border-right: 1px solid #ccc;
+    margin-right: 12px;
+  }
+
+  /* ABOUT */
+
+  .about .target,
+  .personal-info {
+    padding: 20px 15px 0;
+    line-height: 1.4;
+  }
+
+  .about .target h1,
+  .personal-info h1 {
+    font-size: 28px;
+  }
+
+  /* JOB INFO */
+
+  .job-info .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  .job-info .block-info {
+    height: auto;
+  }
+
+  .job-info .favorite {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .job-info .favorite .favorite-item {
+    margin-bottom: 8px;
+  }
+
+  /* CERTIFICATE */
+
+  .certificate img {
+    width: 100%;
+  }
+  .certificate .certi {
+    grid-template-rows: 1fr 1.5fr;
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+  }
+
+  .certificate .grid-certi {
+    row-gap: 24px;
+  }
+
+  .certificate .text-cont {
+    max-width: 70%;
+  }
+
+  .certificate .top-certi {
+    padding-bottom: 24px;
+  }
+
+  /* PROJECT */
+
+  .project .project-mini-grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: repeat(2, 50%);
+  }
+
+  .project .project-mini-grid .lamp-grid {
+    grid-column: 2 / span 2;
+  }
+}
