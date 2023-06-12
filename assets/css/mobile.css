@@ -82,6 +82,8 @@
 
   .job-info .job-info-icon {
     font-size: 32px;
+    right: 12px;
+    top: 20px;
   }
 
   /* CERTIFICATE */
