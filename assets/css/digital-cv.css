@@ -1,0 +1,39 @@
+body {
+  width: 100%;
+}
+
+.container.grid h4 {
+  font-size: 1rem;
+}
+
+.timeline {
+  grid-row: span 2;
+}
+
+.container.grid {
+  display: grid;
+  align-items: stretch;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1.5fr 1fr;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  width: 100%;
+}
+
+.color-number {
+  width: 52px;
+  height: 52px;
+  background: rgb(199, 143, 216);
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.timeline .content-container {
+  border-bottom: 1px solid #ccc;
+}
+
+.timeline .content-container p {
+  margin: unset;
+}

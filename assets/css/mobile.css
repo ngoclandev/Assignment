@@ -129,7 +129,7 @@
   /* PROJECT */
 
   .project .project-list {
-    row-gap: 12px;
+    row-gap: 36px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
   }
@@ -147,5 +147,9 @@
   .footer ul {
     flex-wrap: wrap-reverse;
     padding: unset;
+  }
+
+  .footer a span {
+    display: none;
   }
 }
